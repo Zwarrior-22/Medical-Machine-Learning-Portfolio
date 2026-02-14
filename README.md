@@ -5,7 +5,7 @@ This repository contains end-to-end machine learning pipelines for clinical diag
 Objective: Predict the presence of cardiovascular disease based on clinical markers (age, cholesterol, chest pain type).
 Key Techniques: Feature Engineering, Random Forest Classification, and Feature Importance Ranking.
 Clinical Insight: Identifies key risk factors like ca (vessels colored by fluoroscopy) and oldpeak (ST depression) to assist in non-invasive screening.
-2. Market Pulse: Diabetes Risk Prediction (02_Diabetes_Pulse)
+2. Diabetes Risk Prediction (02_Diabetes_Pulse)
 Objective: Stratify diabetes risk using metabolic markers like Glucose, BMI, and Insulin levels.
 Key Techniques: Logistic Regression, Median Imputation (handling biologically impossible zeros), and GridSearchCV for hyperparameter tuning.
 Clinical Insight: Prioritizes model interpretability through Logistic Regression coefficients, allowing clinicians to understand the "why" behind each risk score.
